@@ -1,0 +1,28 @@
+{
+  "name": "rushremoval-website",
+  "version": "1.0.0",
+  "description": "Rush Removal LLC - Tampa Bay Junk Removal & Demolition Website",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "test": "echo \"No tests configured\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dellbiss/website.git"
+  },
+  "keywords": [
+    "junk-removal",
+    "demolition",
+    "tampa-bay"
+  ],
+  "author": "Rush Removal LLC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dellbiss/website/issues"
+  },
+  "homepage": "https://github.com/dellbiss/website#readme",
+  "dependencies": {
+    "@vercel/speed-insights": "^2.0.0"
+  }
+}
