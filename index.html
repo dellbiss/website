@@ -34,7 +34,7 @@
   "url": "https://rushremove.com",
   "image": "https://rushremove.com/og-image.png",
   "telephone": "(844) 747-3075",
-  "email": "info@rushremovalllc.com",
+  "email": "info@rushremove.com",
   "address": {"@type": "PostalAddress","addressLocality": "Tampa","addressRegion": "FL","addressCountry": "US"},
   "geo": {"@type": "GeoCoordinates","latitude": 27.9506,"longitude": -82.4572},
   "openingHoursSpecification": [{"@type": "OpeningHoursSpecification","dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens": "07:00","closes": "19:00"}],
@@ -603,12 +603,34 @@
       background: var(--mid);
     }
   }
+
+  .nav-logo {
+    height: 52px;
+    width: auto;
+    display: block;
+    filter: drop-shadow(0 0 8px rgba(200,16,46,0.3));
+    transition: filter 0.2s;
+  }
+  .nav-logo:hover { filter: drop-shadow(0 0 14px rgba(200,16,46,0.6)); }
+  .nav-brand { text-decoration: none; }
+
+  .footer-logo {
+    height: 80px;
+    width: auto;
+    display: block;
+    margin: 0 auto 8px;
+    filter: drop-shadow(0 0 10px rgba(200,16,46,0.25));
+  }
+
+  @media (max-width: 700px) {
+    .nav-logo { height: 42px; }
+  }
 </style>
 </head>
 <body>
 
 <nav>
-  <div class="nav-brand">Rush <span>Removal</span> LLC</div>
+  <a href="#" class="nav-brand"><img src="logo.png" alt="Rush Removal LLC" class="nav-logo"></a>
   <ul>
     <li><a href="#services">Services</a></li>
     <li><a href="#gallery">Our Work</a></li>
@@ -621,6 +643,7 @@
   </button>
 </nav>
 <div class="mobile-nav" id="mobileNav">
+  <img src="logo.png" alt="Rush Removal LLC" style="height:80px;width:auto;margin-bottom:16px;filter:drop-shadow(0 0 12px rgba(200,16,46,0.4))">
   <a href="#services">Services</a>
   <a href="#gallery">Our Work</a>
   <a href="#mission">Mission</a>
@@ -783,12 +806,12 @@
       <div class="contact-card" data-reveal>
         <div class="icon">📞</div>
         <h3>Call or Text</h3>
-        <a href="tel:+18135550000">(813) 555-0000</a>
+        <a href="tel:+18447473075">(844) 747-3075</a>
       </div>
       <div class="contact-card" data-reveal>
         <div class="icon">📧</div>
         <h3>Email</h3>
-        <a href="mailto:info@rushremovalllc.com">info@rushremovalllc.com</a>
+        <a href="mailto:info@rushremove.com">info@rushremove.com</a>
       </div>
       <div class="contact-card" data-reveal>
         <div class="icon">🕐</div>
@@ -800,7 +823,7 @@
 </section>
 
 <footer>
-  <div class="footer-brand">Rush <span>Removal</span> LLC</div>
+  <img src="logo.png" alt="Rush Removal LLC" class="footer-logo">
   <div class="footer-tag">Fast. Reliable. Gone.</div>
   <p>© 2025 Rush Removal LLC &nbsp;·&nbsp; Tampa Bay, Florida &nbsp;·&nbsp; All Rights Reserved</p>
 </footer>
